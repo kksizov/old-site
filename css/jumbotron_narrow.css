@@ -1,0 +1,172 @@
+/* Space out content a bit */
+body {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-family: "Georgia";
+  color: #BDBCB7;
+  background-color: #2B2B2A;
+}
+.header{
+	height:200px;
+}
+.btn-group-sm {
+  font-family: Georgia;
+  color: #b28317;
+  font-size: 16px;
+  background: #2B2B2A;
+  margin: 10px;
+  border: solid #2B2B2A 0px;
+  text-decoration: none;
+  text-align: center;
+  padding:0;
+}
+.btn-group-sm:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #b28317;
+  position:relative;
+
+}
+/*.row-featurette:hover{
+filter: none;
+  -webkit-filter: grayscale(0%);
+}*/
+
+}
+.featurette-divider{
+	border: solid #505050   1px;
+	margin:0px;
+}
+.featurette-divider:hover  {
+ filter: none;
+  -webkit-filter: grayscale(0%);
+}
+.featurette-image{
+	margin: 25px;
+	padding-right:25px;
+}
+a{
+	color:#b28317;
+	text-decoration: none;
+}
+a:hover{
+	color:#b28317;
+	text-decoration: none;
+}
+h3{
+	height: 10px;
+	margin:0px;
+}
+.featurette-heading{
+	font-size: 16px;
+	margin:25px;
+}
+.featurette-image  {
+  /*filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  height:150px;
+  width:250px;
+  object-position: top 75%;
+  object-fit: cover;
+  overflow: hidden;
+  -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+  margin: 25px;
+}
+.featurette-image:hover  {
+ filter: none;
+  -webkit-filter: grayscale(0%);
+}
+.lead {
+	font-size: 14px;
+	margin:25px;
+}
+.btn-sm{
+  font-family: Georgia;
+  color: #b28317;
+  font-size: 16px;
+  background: #2B2B2A;
+  /*padding: 10px 10px 10px 10px;*/
+  /*margin: 10px;*/
+  border: solid #2B2B2A 0px;
+  text-decoration: none;
+  text-align: center;
+}
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top:0px;
+  padding-bottom: 0px;
+
+}
+
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom:0px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 20px;
+  padding-bottom: 0px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 14px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 10px;
+    margin-top: 10px;
+   
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
